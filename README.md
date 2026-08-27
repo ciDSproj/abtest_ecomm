@@ -22,7 +22,7 @@ lift.
 - AI Copilot: ChatGPT (debug and interpret results)
 - Python 3.7 libraries: 
     - Pandas (data handling)
-    - Matplotlib for data visualization
+    - Matplotlib (data visualization)
     - statsmodels (statistical math) and scipy.stats (probability distributions)
 
 
