@@ -11,9 +11,11 @@ The analysis includes:
 - Minimum Detectable Effect (MDE) power analysis  
 - Sample Ratio Mismatch (SRM) validation using a Chi‑Square goodness‑of‑fit test 
 
+
 ## Goal    
 The goal was to determine whether a redesigned e‑commerce checkout page leads to a statistically significant improvement in conversion and whether the experiment was properly randomized and sufficiently powered to detect a meaningful 
 lift.
+
 
 ## Resources Used
 - Coding Environment: Google Colab (extension for Visual Studio Code)
@@ -23,15 +25,17 @@ lift.
     - Matplotlib for data visualization
     - statsmodels (statistical math) and scipy.stats (probability distributions)
 
+
 ## Dataset
 The dataset includes 10,000 shoppers randomly assigned to:
 - **Control** (existing checkout)
 - **Treatment** (redesigned checkout)
 
-## **Key Analyses**
+
+## Key Analyses
 
 ### **1. Conversion Rates**
-The conversion rates comparison illustrates a 2% lift.
+The conversion rates comparison illustrates a **2%** lift.
 - **12.35% for the control group**
 - **14.56% for the treatment group**
 
