@@ -40,7 +40,10 @@ The conversion rates comparison illustrates a **2%** lift.
 - **14.56% for the treatment group**
 
 
-image - KDEs for Calculated Conversion Distributions
+![KDEs Conversion Distribution](ml5_conversion_rate.png)
+<br/>
+
+
 
 
 ### 2. Two‑Sample Z‑Test
