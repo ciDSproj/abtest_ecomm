@@ -20,7 +20,7 @@ lift.
 ## Resources Used
 - Coding Environment: Google Colab (extension for Visual Studio Code)
 - AI Copilot: ChatGPT (debug and interpret results)
-- Python 3.7 libraries: 
+- Python libraries: 
     - Pandas (data handling)
     - Matplotlib (data visualization)
     - statsmodels (statistical math) and scipy.stats (probability distributions)
