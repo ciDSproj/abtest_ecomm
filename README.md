@@ -34,7 +34,7 @@ The dataset includes 10,000 shoppers randomly assigned to:
 
 ## Key Analyses
 
-### **1. Conversion Rates**
+### 1. Conversion Rates
 The conversion rates comparison illustrates a **2%** lift.
 - **12.35% for the control group**
 - **14.56% for the treatment group**
@@ -43,25 +43,25 @@ The conversion rates comparison illustrates a **2%** lift.
 image - KDEs for Calculated Conversion Distributions
 
 
-### **2. Two‑Sample Z‑Test**
+### 2. Two‑Sample Z‑Test
 A two‑sample proportion z‑test was used to determine whether the difference in conversion rates was statistically significant.
 
-### **3. Confidence Intervals**
+### 3. Confidence Intervals
 95% confidence intervals were calculated for both variants to quantify uncertainty around the conversion estimates.
 
-### **4. Minimum Detectable Effect (MDE) Power Analysis**
+### 4. Minimum Detectable Effect (MDE) Power Analysis
 Using `statsmodels.stats.power`, I evaluated whether the sample size was large enough to reliably detect a
 **2‑percentage‑point lift** — a meaningful business improvement.
 
 The experiment achieved **high statistical power**, confirming that the sample size was sufficient.
 
-### **5. Sample Ratio Mismatch (SRM) Check**
+### 5. Sample Ratio Mismatch (SRM) Check
 To ensure the assignment mechanism was not biased or broken, I performed an SRM check using a 
 **Chi‑Square goodness‑of‑fit test** on **unique users per group**.  
 This validated that the observed group split matched the expected 50/50 allocation.
 
 
-## **Results Summary**
+## Results Summary
 - The redesigned checkout page produced a **statistically significant lift** in conversion.  
 - The p‑value was well below 0.05, indicating the improvement is unlikely due to chance.  
 - Power analysis confirmed the experiment was sufficiently sized to detect the target lift.  
